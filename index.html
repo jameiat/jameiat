@@ -56,6 +56,11 @@
             height: auto;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .image-gallery img:hover {
+            transform: scale(1.05);
         }
         footer {
             background: #2c3e50;
@@ -100,6 +105,7 @@
             margin-bottom: 20px;
         }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
 </head>
 <body>
     <header>
@@ -116,13 +122,13 @@
         <h2>من نحن؟</h2>
         <p>جمعية خيرية تهدف إلى غرس الأشجار وتشجيع الممارسات البيئية المستدامة.</p>
         <div class="image-gallery">
-            <img src="image1.jpg" alt="صورة شجرة 1">
-            <img src="image2.jpg" alt="صورة شجرة 2">
-            <img src="image3.jpg" alt="صورة شجرة 3">
-            <img src="image4.jpg" alt="صورة شجرة 4">
-            <img src="image5.jpg" alt="صورة شجرة 5">
-            <img src="image6.jpg" alt="صورة شجرة 6">
-            <img src="image7.jpg" alt="صورة شجرة 7">
+            <a href="image1.jpg" data-lightbox="gallery" data-title="صورة شجرة 1"><img src="image1.jpg" alt="صورة شجرة 1"></a>
+            <a href="image2.jpg" data-lightbox="gallery" data-title="صورة شجرة 2"><img src="image2.jpg" alt="صورة شجرة 2"></a>
+            <a href="image3.jpg" data-lightbox="gallery" data-title="صورة شجرة 3"><img src="image3.jpg" alt="صورة شجرة 3"></a>
+            <a href="image4.jpg" data-lightbox="gallery" data-title="صورة شجرة 4"><img src="image4.jpg" alt="صورة شجرة 4"></a>
+            <a href="image5.jpg" data-lightbox="gallery" data-title="صورة شجرة 5"><img src="image5.jpg" alt="صورة شجرة 5"></a>
+            <a href="image6.jpg" data-lightbox="gallery" data-title="صورة شجرة 6"><img src="image6.jpg" alt="صورة شجرة 6"></a>
+            <a href="image7.jpg" data-lightbox="gallery" data-title="صورة شجرة 7"><img src="image7.jpg" alt="صورة شجرة 7"></a>
         </div>
     </div>
     <div class="container" id="join">
@@ -141,10 +147,11 @@
     </div>
     <div class="container" id="contact">
         <h2>تواصل معنا</h2>
-        <p>يمكنك التواصل معنا عبر البريد الإلكتروني: <a href="mailto:planttreeawladissa49@gmail.com">planttreeawladissa49@gmail.com</a> أو الاتصال على الرقم: 0654703071</p>
+        <p>يمكنك التواصل معنا عبر البريد الإلكتروني: <a href="planttreeawladissa49@gmail.com">planttreeawladissa49@gmail.com</a> أو الاتصال على الرقم: 0654703071</p>
     </div>
     <footer>
         <p>&copy; 2025 جمعية اغرس شجرة لك حسنة. جميع الحقوق محفوظة.</p>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 </body>
 </html>
