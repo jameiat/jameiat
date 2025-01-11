@@ -45,6 +45,18 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
         }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
         footer {
             background: #2c3e50;
             color: white;
@@ -103,10 +115,19 @@
     <div class="container" id="home">
         <h2>من نحن؟</h2>
         <p>جمعية خيرية تهدف إلى غرس الأشجار وتشجيع الممارسات البيئية المستدامة.</p>
+        <div class="image-gallery">
+            <img src="image1.jpg" alt="صورة شجرة 1">
+            <img src="image2.jpg" alt="صورة شجرة 2">
+            <img src="image3.jpg" alt="صورة شجرة 3">
+            <img src="image4.jpg" alt="صورة شجرة 4">
+            <img src="image5.jpg" alt="صورة شجرة 5">
+            <img src="image6.jpg" alt="صورة شجرة 6">
+            <img src="image7.jpg" alt="صورة شجرة 7">
+        </div>
     </div>
     <div class="container" id="join">
         <h2>الانضمام إلى الجمعية</h2>
-        <form action="https://formspree.io/f/meoovrzp" method="POST">
+        <form action="https://formspree.io/f/mlddawza" method="POST">
             <label for="name">الاسم الكامل:</label>
             <input type="text" id="name" name="name" required>
             <label for="email">البريد الإلكتروني:</label>
@@ -120,7 +141,7 @@
     </div>
     <div class="container" id="contact">
         <h2>تواصل معنا</h2>
-        <p>يمكنك التواصل معنا عبر البريد الإلكتروني: <a href="planttreeawladissa49@gmail.com">planttreeawladissa49@gmail.com</a> أو الاتصال على الرقم: 0654703071</p>
+        <p>يمكنك التواصل معنا عبر البريد الإلكتروني: <a href="mailto:aissaoui9991@gmail.com">igarsshhjara@gmail.com</a> أو الاتصال على الرقم: 123456789</p>
     </div>
     <footer>
         <p>&copy; 2025 جمعية اغرس شجرة لك حسنة. جميع الحقوق محفوظة.</p>
